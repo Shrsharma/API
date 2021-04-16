@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Model
 {
-    class BaseModel
+    public class BaseModel
     {
+
+        public string ID { get; set; }
     }
 }
